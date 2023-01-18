@@ -51,11 +51,14 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'questions',
-        message: 'How can people contact you?'
-        // ask for users github username and provide link to profile in section
-        // ask for email and instructions on how to reach the user with more questions
+        name: 'questionsGitHub',
+        message: 'What is your GitHub username?'
     },
+    {
+        type: 'input',
+        name: 'questionsEmail',
+        message: 'Provide your email and how people can contact you with additional questions.'
+    }
 ];
 
 inquirer.prompt(questions).then(answers => {
