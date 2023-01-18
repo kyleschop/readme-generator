@@ -25,12 +25,12 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'usage-image',
+        name: 'usageImage',
         message: 'Add an image to the "assets/images" folder then provide the complete file name.'
     },
     {
         type: 'input',
-        name: 'usage-video',
+        name: 'usageVideo',
         message: 'Provide the link to a video demonstrating the usage of your project.'
     },
     {

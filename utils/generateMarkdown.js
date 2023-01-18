@@ -2,7 +2,6 @@ function generateMarkdown(data) {
   let licenseBadge = '';
   switch (data.license) {
     case 'none':
-      console.log('none');
       licenseBadge = 'None'
       break;
     case 'MIT License':
@@ -29,9 +28,9 @@ ${data.installation}
 ---
 ${data.usage}
 
-![alt text](assets/images/${usage-image})
+![alt text](assets/images/${data.usageImage})
 
-${data.usage-video}
+${data.usageVideo}
 
 ## License
 ---
