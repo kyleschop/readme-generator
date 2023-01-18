@@ -12,33 +12,31 @@ This application creates a professional README.md file based on user input.
 
 ## Installation
 ---
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Clone this repository to a directory. Then install inquirer by running the code:
+
+    npm i inquirer@8.2.4
 
 ## Usage
 ---
-Provide instructions and examples for use. Include screenshots as needed.
+To invoke the application run the following command:
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+    node index.js
 
 ## License
 ---
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
 
 ## Contributing
 ---
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+Please refer to the [Contributor Covenant](https://www.contributor-covenant.org/) before contributing to this project.
 
 ## Tests
 ---
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+To test this application fallow the instructions listed above and generate your own README markdown file.
 
 ## Questions
 ---
-ask for users github username and provide link to profile in section
+https://github.com/kyleschop/
 
-ask for email and instructions on how to reach the user with more questions  
+Please email klparuu@yahoo.com with additional questions. 
