@@ -22,6 +22,10 @@ To invoke the application run the following command:
 
     node index.js
 
+![alt text](assets/images/README.png)
+
+https://drive.google.com/file/d/1Vlg9W5aIx1NtcsbSBxe-ykFkXSFAQmQ3/view
+
 ## License
 ---
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
