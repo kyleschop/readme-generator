@@ -43,7 +43,9 @@ ${data.tests}
 
 ## Questions
 ---
-${data.questions}
+https://github.com/${data.questionsGitHub}/
+
+${data.questionsEmail}
 `;
 };
 
