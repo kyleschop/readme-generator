@@ -26,12 +26,12 @@ const questions = [
     {
         type: 'input',
         name: 'usage-image',
-        message: 'Add an image to the "assets/images" folder then provide the name of the image here.'
+        message: 'Add an image to the "assets/images" folder then provide the complete file name.'
     },
     {
         type: 'input',
         name: 'usage-video',
-        message: 'Add an image to the "assets/videos" folder then provide the name of the video here.'
+        message: 'Provide the link to a video demonstrating the usage of your project.'
     },
     {
         type: 'list',
@@ -72,8 +72,3 @@ const createMD = data => {
         err ? console.log(err) : console.log('Success!');
     });
 };
-
-// TODO: Create a function to initialize app
-// function init() {}
-// Function call to initialize app
-// init();

@@ -29,6 +29,10 @@ ${data.installation}
 ---
 ${data.usage}
 
+![alt text](assets/images/${usage-image})
+
+${data.usage-video}
+
 ## License
 ---
 ${licenseBadge}
