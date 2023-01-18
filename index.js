@@ -34,10 +34,10 @@ const questions = [
         message: 'Add an image to the "assets/videos" folder then provide the name of the video here.'
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
-        message: 'What license is this project covered under?'
-        // should be a list of options and should add a badge and description
+        message: 'What license is this project covered under?',
+        choices: ['none', 'MIT License']
     },
     {
         type: 'input',
@@ -70,10 +70,6 @@ const createMD = data => {
     });
 };
 
-
-
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
 // TODO: Create a function to initialize app
 // function init() {}
 // Function call to initialize app
